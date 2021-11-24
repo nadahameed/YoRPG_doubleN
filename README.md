@@ -3,19 +3,19 @@
 ---
 
 #### Protagonist subclasses:
-⋅⋅* Warrior: 
-⋅⋅* Tank: 
-⋅⋅* Assassin:
+* Warrior: well-rounded in both offense and defense
+* Tank: low offense but high offense
+* Assassin: low defense but high offense
 
 #### Monster subclasses:
-⋅⋅* Goblin: 
-⋅⋅* Orc: 
-⋅⋅* Dragon: 
+* Goblin: most common monster the protagonist will encounter, higher offense than defense
+* Orc: higher defense than offense
+* Dragon: has high stats but is the rarest monster
 
 #### Verison to version modifications:
-v0: added Protagonist.java and Monster.java
-v1: added the superclass Character.java
-v2: created at least 3 protagonist and monster subclasses
+* v0: added Protagonist.java and Monster.java
+* v1: added the superclass Character.java
+* v2: created at least 3 protagonist and monster subclasses
 
 #### How can we grow this game?
-⋅⋅* 
+We should add more characters into the game, each with unique stats.
