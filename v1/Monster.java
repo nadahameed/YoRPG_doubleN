@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   class Monster -- Represents random incarnations of
   the adventurer's natural enemy in Ye Olde RPG
@@ -63,3 +64,17 @@ public class Monster extends Character{
   }
 
 }//end class Monster
+=======
+public class Monster{
+  public int health = 15;
+
+  public boolean isAlive(){
+    return (health > 0);
+  }
+  
+  public int attack(Protagonist being){
+    being.health -= 3;
+    return 3;
+  }
+}
+>>>>>>> f3b0b9ae62a5f701eab34b15bf816953f3e52e72
