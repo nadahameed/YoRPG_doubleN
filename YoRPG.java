@@ -119,13 +119,13 @@ public class YoRPG {
       double probability = Math.random()*100;
       if (probability > 80){
         smaug = new Dragon();
-        System.out.println("Our hero faces a mythical creature: " + Dragon.about());
+        System.out.println("Our hero faces a mythical creature, a " + Dragon.about());
       } else if (probability > 40){
         smaug = new Orc();
-        System.out.println("Our hero faces a mythical creature: " + Orc.about());
+        System.out.println("Our hero faces a mythical creature, an " + Orc.about());
       } else {
           smaug = new Goblin();
-          System.out.println("Our hero faces a mythical creature: " + Goblin.about());
+          System.out.println("Our hero faces a mythical creature, a " + Goblin.about());
         }
 
       while( smaug.isAlive() && pat.isAlive() ) {
