@@ -18,7 +18,7 @@ public class Assassin extends Protagonist{
   }
 
   public static String about() {
-    String a = "\t -- Assassin is kills fast, but make sure he doesn't get caught...";
+    String a = "\t -- Assassin is sneaky and kills fast, but make sure he doesn't get caught...";
     return a;
   }
 
