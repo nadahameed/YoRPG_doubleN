@@ -7,7 +7,7 @@ public class Dragon extends Monster{
   }
 
   public static String about() {
-    String a = "\t -- dragons, a mighty beast. Enough said.";
+    String a = "dragon, a mighty beast. Enough said.";
     return a;
   }
 

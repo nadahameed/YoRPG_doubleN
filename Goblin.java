@@ -7,7 +7,7 @@ public class Goblin extends Monster{
   }
 
   public static String about() {
-    String a = "\t -- goblin, which isn't the strongest, but it can bite.";
+    String a = "goblin, which isn't the strongest, but it can bite.";
     return a;
   }
 }

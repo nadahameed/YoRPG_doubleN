@@ -7,7 +7,7 @@ public class Orc extends Monster{
   }
 
   public static String about() {
-    String a = "\t -- Orc, a stoic creature, like a rock.";
+    String a = "orc, a stoic creature, like a rock.";
     return a;
   }
 
