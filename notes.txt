@@ -1,0 +1,6 @@
+- subclasses allow for further organization
+- super() takes the value of the superclass
+- a protected instance variable is accessible by the class and all its subclasses
+  - replace public/private with protected
+  - we used this to define the stats of a Character (which had two subclasses, each with several more subclasses)
+- constructors are not inherited but can be invoked (which is why we used super())
