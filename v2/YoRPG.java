@@ -77,11 +77,11 @@ public class YoRPG {
     catch ( IOException e ) { }
 
     String str = "Choose your hero:";
-    str += "\n1) Warrior";
-    str += "\n2) Tank";
-    str += "\n3) Assassin\n";
-    str += "Your choice: ";
-    int characterChoice;
+    str += "\n1) Warrior" + Warrior.about();
+    str += "\n2) Tank" + Tank.about();
+    str += "\n3) Assassin" + Assassin.about();
+    str += "\n Your choice: ";
+    int characterChoice = 1;
     System.out.print(str);
     try {
       characterChoice = Integer.parseInt(in.readLine());
@@ -115,7 +115,17 @@ public class YoRPG {
     else {
       System.out.println( "\nLo, yonder monster approacheth!" );
 
-      smaug = new Monster();
+      double probability = Math.random()*100;
+      if (probability > 80){
+        smaug = new Dragon();
+        System.out.println("Our hero faces a mythical creature: " + Dragon.about());
+      } else if (probability > 40){
+        smaug = new Orc();
+        System.out.println("Our hero faces a mythical creature: " + Orc.about());
+      } else {
+          smaug = new Goblin();
+          System.out.println("Our hero faces a mythical creature: " + Goblin.about());
+        }
 
       while( smaug.isAlive() && pat.isAlive() ) {
 

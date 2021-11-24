@@ -18,4 +18,14 @@ public class Protagonist extends Character{
   public String getName() { return _name; }
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+  public void specialize() {
+    _attack = .75;
+    _defense = 20;
+  }
+
+  //revert to normal mode
+  public void normalize() {
+    _attack = .4;
+    _defense = 40;
+  }
 }//end class Protagonist

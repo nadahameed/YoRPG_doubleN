@@ -1,5 +1,6 @@
 public class Warrior extends Protagonist{
-  public Warrior() {
+  public Warrior(String name) {
+    super(name);
     _hitPts = 125;
     _strength = 100;
     _defense = 40;
@@ -15,5 +16,10 @@ public class Warrior extends Protagonist{
   public void normalize() {
     _attack = .4;
     _defense = 40;
+  }
+
+  public static String about() {
+    String a = "\t -- Warrior is your average well-rounded fellow.";
+    return a;
   }
 }
