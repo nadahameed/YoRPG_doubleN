@@ -7,6 +7,12 @@
  * DISCO:
  * 1) If statements do not require {} when there's only one line of code inside.
  * 2) When we use Character in a parameter, it includes both Protagonist and Monster.
+ * 3) Because pat is a Protagonist, any method we want pat to call has to be defined in the Protagonist class (ex: specialize) - the same goes for Monster
+ * 
+ * QCCs:
+ * 1) It would be interesting to try and incorporate 2 Protagonists/two Monsters faced at once
+ * 2) We do not know what (IOException e) does
+
  **********************************************/
 
 import java.io.*;
