@@ -18,4 +18,5 @@
 * v2: created at least 3 protagonist subclasses and 3 monster subclasses
 
 #### How can we grow this game?
-We should add more characters into the game, each with unique stats.
+* We should add more characters into the game, each with unique stats.
+* The Monster type could depend on the difficulty (ex: level 3 => higher chance of facing Dragon)
